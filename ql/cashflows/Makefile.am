@@ -39,7 +39,8 @@ this_include_HEADERS = \
     simplecashflow.hpp \
     timebasket.hpp \
     yoyinflationcoupon.hpp \
-    zeroinflationcashflow.hpp
+    zeroinflationcashflow.hpp \
+    arithmeticlookbackoncouponpricer.hpp
 
 cpp_files = \
     arithmeticlookbackoncouponpricer.cpp \
