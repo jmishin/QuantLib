@@ -4,6 +4,7 @@ AM_CPPFLAGS = -I${top_builddir} -I${top_srcdir}
 this_includedir=${includedir}/${subdir}
 this_include_HEADERS = \
     all.hpp \
+    arithmeticlookbackoncouponpricer.hpp \
     averagebmacoupon.hpp \
     blackovernightindexedcouponpricer.hpp \
     capflooredcoupon.hpp \
@@ -41,6 +42,7 @@ this_include_HEADERS = \
     zeroinflationcashflow.hpp
 
 cpp_files = \
+    arithmeticlookbackoncouponpricer.cpp \
     averagebmacoupon.cpp \
     blackovernightindexedcouponpricer.cpp \
     capflooredcoupon.cpp \

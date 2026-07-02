@@ -486,6 +486,9 @@
     <ClInclude Include="ql\cashflows\all.hpp">
       <Filter>cashflows</Filter>
     </ClInclude>
+    <ClInclude Include="ql\cashflows\arithmeticlookbackoncouponpricer.hpp">
+      <Filter>cashflows</Filter>
+    </ClInclude>
     <ClInclude Include="ql\cashflows\averagebmacoupon.hpp">
       <Filter>cashflows</Filter>
     </ClInclude>
@@ -4606,6 +4609,9 @@
     </ClCompile>
     <ClCompile Include="ql\methods\lattices\trinomialtree.cpp">
       <Filter>methods\lattices</Filter>
+    </ClCompile>
+    <ClCompile Include="ql\cashflows\arithmeticlookbackoncouponpricer.cpp">
+      <Filter>cashflows</Filter>
     </ClCompile>
     <ClCompile Include="ql\cashflows\averagebmacoupon.cpp">
       <Filter>cashflows</Filter>
